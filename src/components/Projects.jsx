@@ -31,7 +31,7 @@ export default function Projects() {
       <h2 className="text-3xl">Projects</h2>
       {projectsItems.map((project, index) => (
         <div
-          className="md:flex md:gap-5 md:justify-center hover:bg-[#20332A] py-6 rounded-lg transition duration-500 ease-in-out px-10"
+          className="md:flex md:gap-5 md:justify-center xl:hover:bg-[#20332A] py-6 rounded-lg transition duration-500 ease-in-out px-4"
           key={index}
         >
           <div className="border border-gray-500 h-50 w-72 rounded-md md:w-1/2 md:mt-5"></div>

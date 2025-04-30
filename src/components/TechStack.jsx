@@ -21,7 +21,7 @@ export default function TechStack() {
   return (
     <section id="techStack" className="space-y-10 mt-15 text-[#A79A86]">
       <h2 className=" text-3xl">Tech Stack</h2>
-      <div className="flex flex-col items-center justify-center gap-5 hover:bg-[#20332A] py-6 rounded-lg transition duration-500 ease-in-out">
+      <div className="flex flex-col items-center justify-center gap-5 hover:bg-[#20332A] py-6 rounded-lg transition duration-500 ease-in-out px-10">
         <h3 className="text-lg border-b border-gray-700 pb-2">
           Frontend Tools
         </h3>

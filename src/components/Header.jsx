@@ -1,6 +1,5 @@
-import { Icon } from "@iconify/react/dist/iconify.js";
 import { useEffect, useState } from "react";
-import { Github, GithubIcon, LinkedinIcon, ArrowUpRight } from "lucide-react";
+import { GithubIcon, LinkedinIcon, ArrowUpRight } from "lucide-react";
 
 const navItems = [
   { label: "About", id: "about" },
@@ -41,7 +40,7 @@ export default function Header() {
   }, []);
 
   return (
-    <header className="max-w-2xs mx-auto container space-y-15 md:max-w-xl lg:w-[48%] lg:sticky lg:top-0 lg:py-24 lg:h-full lg:flex lg:flex-col lg:items-start lg:justify-between gap-11">
+    <header className="max-w-2xs mx-auto container space-y-15 md:max-w-xl lg:w-[48%] lg:sticky lg:top-0 lg:py-24 lg:h-full lg:flex lg:flex-col lg:items-start lg:justify-between gap-11 pt-20">
       <div>
         <h1 className="special-gothic-expanded-one-regular text-3xl text-[#D6CAB5] font-bold lg:text-6xl">
           Kharl Aquino

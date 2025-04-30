@@ -1,5 +1,5 @@
 import "./App.css";
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import Header from "./components/Header";
 import About from "./components/About";
 import Experience from "./components/Experience";
@@ -8,6 +8,7 @@ import Projects from "./components/Projects";
 import Footer from "./components/Footer";
 import Certifications from "./components/Certifications";
 import ScrollToTopButton from "./components/ScrollToTopButton";
+import Loading from "./components/Loading";
 
 function CursorGlow() {
   const glowRef = useRef(null);
@@ -56,6 +57,20 @@ function CursorGlow() {
 }
 
 function App() {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setLoading(false);
+    }, 2000);
+
+    return () => clearTimeout(timer);
+  }, []);
+
+  if (loading) {
+    return <Loading />;
+  }
+
   return (
     <div className="min-h-screen bg-[#1A2421] special-gothic-expanded-one-regular lg:flex lg:justify-between lg:px-40 lg:gap-10">
       <>

@@ -73,9 +73,9 @@ function App() {
 
   return (
     <div className="min-h-screen bg-[#1A2421] special-gothic-expanded-one-regular lg:flex lg:justify-between lg:px-40 lg:gap-10">
-      <>
+      <div className="hidden lg:block">
         <CursorGlow />
-      </>
+      </div>
       <ScrollToTopButton />
       <Header />
       <main className="max-w-2xs mx-auto container md:max-w-xl lg:w-[52%] lg:py-24 lg:max-w-3xl">

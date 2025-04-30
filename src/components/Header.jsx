@@ -86,16 +86,28 @@ export default function Header() {
         </ul>
       </nav>
       <section className="flex gap-2">
-        <LinkedinIcon
-          size={32}
-          color="#A49581"
-          className="hover:-translate-y-2 duration-500 ease-in-out transition hover:scale-110"
-        />
-        <GithubIcon
-          size={32}
-          color="#A49581"
-          className="hover:-translate-y-2 duration-500 ease-in-out transition hover:scale-110"
-        />
+        <a
+          href="https://www.linkedin.com/in/kharl-chris-an-aquino-b6617625b"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <LinkedinIcon
+            size={32}
+            color="#A49581"
+            className="hover:-translate-y-2 duration-500 ease-in-out transition hover:scale-110"
+          />
+        </a>
+        <a
+          href="https://www.github.com/kharlitoTheProgrammer"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <GithubIcon
+            size={32}
+            color="#A49581"
+            className="hover:-translate-y-2 duration-500 ease-in-out transition hover:scale-110"
+          />
+        </a>
       </section>
     </header>
   );

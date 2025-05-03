@@ -20,3 +20,5 @@ The layout consists of two main parts:
 - Clean, accessible layout focused on readability
 
 This project highlights my front-end development skills, particularly in building responsive UIs with React and Tailwind CSS.
+
+🔗 **Live Demo:** https://kharldevportfolio.vercel.app/

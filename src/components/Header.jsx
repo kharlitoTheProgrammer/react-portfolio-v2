@@ -4,7 +4,7 @@ import "../App.css";
 
 const navItems = [
   { label: "About", id: "about" },
-  { label: "Experiences", id: "experience" },
+  { label: "Experience", id: "experience" },
   { label: "Tech Stack", id: "techStack" },
   { label: "Projects", id: "projects" },
   { label: "Certifications", id: "certifications" },
@@ -51,7 +51,7 @@ export default function Header() {
         </p>
       </div>
       <button className="animate-pulse text-[#A79A86] lg:text-xl cursor-pointer flex  hover:-translate-y-2 transition duration-500 ease-in-out group">
-        <a href="/Resume_Kharl_Aquino.pdf">View Resume</a>
+        <a href="/Kharl_Aquino_Resume.pdf">View Resume</a>
         <span>
           <ArrowUpRight
             size={20}

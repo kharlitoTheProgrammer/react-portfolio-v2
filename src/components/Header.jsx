@@ -4,7 +4,7 @@ import "../App.css";
 
 const navItems = [
   { label: "About", id: "about" },
-  { label: "Experience", id: "experience" },
+  { label: "Experiences", id: "experience" },
   { label: "Tech Stack", id: "techStack" },
   { label: "Projects", id: "projects" },
   { label: "Certifications", id: "certifications" },

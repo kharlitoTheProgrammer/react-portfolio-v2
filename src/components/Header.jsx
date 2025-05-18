@@ -46,7 +46,7 @@ export default function Header() {
         <h1 className="text-5xl text-[#D6CAB5] font-bold lg:text-6xl">
           Kharl Aquino
         </h1>
-        <p className="text-xl special-gothic-expanded-one-regular text-[#A79A86] lg:text-3xl">
+        <p className="text-xl special-gothic-expanded-one-regular text-[#A79A86] lg:text-xl">
           Frontend Developer
         </p>
       </div>

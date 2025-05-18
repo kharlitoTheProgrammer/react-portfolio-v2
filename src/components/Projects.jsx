@@ -49,15 +49,15 @@ export default function Projects() {
           <div className="border border-gray-700 h-50 w-72 rounded-md md:w-1/2 md:mt-5 hover:-translate-y-2 transition duration-500 ease-in-out hover:scale-105">
             <img
               src={project.image}
-              className="w-full h-50 object-cover rounded-md"
+              className="w-full h-50 object-cover rounded-md hover:scale-105 transition duration-500 ease-in-out"
             />
           </div>
           <div className="md:w-full">
             {project.link ? (
               <a href={project.link} target="_blank" rel="noopener noreferrer">
-                <div className="text-left mt-4 text-xl flex hover:-translate-y-2 trasition duration-500 ease-in-out group cursor-pointer">
+                <div className="text-left mt-4 text-xl flex hover:-translate-y-1 trasition duration-500 ease-in-out group cursor-pointer">
                   {project.title}
-                  <ArrowUpRight className="group-hover:translate-x-1 transition duration-500 ease-in-out " />
+                  <ArrowUpRight className="group-hover:translate-x-1 transition duration-500 ease-in-out group-hover:-translate-y-1" />
                 </div>
               </a>
             ) : (
